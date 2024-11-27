@@ -14,4 +14,16 @@ Welcome to the **Task Management API**! This project is a simple Web API built w
    git clone https://github.com/yourusername/TaskManagementAPI.git
    cd TaskManagementAPI
 
+2. If you to need to create migrations
+   ```bash
+   cd TaskManagement.Infrastructure
+   
+   dotnet ef migrations add InitialCreate  -s ../TaskManagmnet.API/TaskManagmnet.API.csproj -o Data/Migrations
+
+3. Create a new Database
+   ```bash
+   dotnet ef database update -s ../TaskManagmnet.API/TaskManagmnet.API.csproj
+
+
+
 ### I will updating in the next commits...
