@@ -19,6 +19,9 @@ obj/
 packages/
 node_modules/
 
+#databases
+database/
+
 # Logs
 *.log
 *.tlog
