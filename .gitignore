@@ -1,0 +1,54 @@
+# Build artifacts
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.nuget.props
+*.nuget.targets
+
+# User-specific files
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.psess
+
+# Dependency directories
+packages/
+node_modules/
+
+# Logs
+*.log
+*.tlog
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Rider/JetBrains IDE files
+.idea/
+*.iml
+
+# Visual Studio Code files
+.vscode/
+
+# Visual Studio specific files
+*.vcxproj*
+*.vcxproj.user
+
+# Configuration files
+appsettings*.json
+
+# Entity Framework migrations
+Migrations/
+
+# Ignore SQLite database files
+*.sqlite
+*.sqlite3
+
+# Ignore Docker files if generated
+docker-compose.override.yml
+
+# Ignore gen
