@@ -20,9 +20,10 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
   </ItemGroup>
-
+  
   <ItemGroup>
-    <ProjectReference Include="..\..\TaskManagmnet.Domain\TaskManagmnet.Domain.csproj" />
+    <ProjectReference Include="..\TaskManagmnet.Domain\TaskManagmnet.Domain.csproj" />
+    <ProjectReference Include="..\TaskManagmnet.Application\TaskManagmnet.Application.csproj" />
   </ItemGroup>
 
 </Project>
