@@ -17,8 +17,8 @@ namespace TaskManagmnet.Infrastructure.Data.Configurations
                 .HasColumnName("varchar(200)");
             builder.Property(t => t.Description)
                 .HasColumnName("varchar(1000)");
-            builder.Property(t => t.Status)
-                .HasColumnName("varchar(20)");
+            builder.Property(t => t.IsCompleted)
+                .HasColumnName("bool");
             builder.Property(t => t.DueDate)
                 .HasColumnName("datetime");    
         }
