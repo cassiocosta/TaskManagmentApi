@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
@@ -17,6 +17,18 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TaskManagmnet.Infrastructure\TaskManagmnet.Infrastructure.csproj" />
+    <ProjectReference Include="..\TaskManagmnet.Application\TaskManagmnet.Application.csproj" />
+    <ProjectReference Include="..\TaskManagmnet.Domain\TaskManagmnet.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\WeatherForecastController.cs" />
+    <Compile Remove="WeatherForecast.cs" />
+    <Compile Remove="Controllers\JobsController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>
